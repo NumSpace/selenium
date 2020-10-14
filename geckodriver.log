@@ -1,0 +1,8 @@
+1602701822566	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OWB9OSTCBQNA"
+
+(firefox:24527): LIBDBUSMENU-GLIB-WARNING **: 18:57:05.703: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602701827640	Marionette	INFO	Listening on port 46785
+1602701827721	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+1602701829270	Marionette	INFO	Stopped listening on port 46785
