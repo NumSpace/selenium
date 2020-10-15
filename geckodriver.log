@@ -6,3 +6,259 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 1602701827721	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
 1602701829270	Marionette	INFO	Stopped listening on port 46785
+1602708198583	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KWJgcYNn2Vli"
+1602708235044	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9jgL6280oBEK"
+
+(firefox:25053): LIBDBUSMENU-GLIB-WARNING **: 20:44:00.302: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602708243776	Marionette	INFO	Listening on port 41273
+1602708243866	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1602708308204	Marionette	INFO	Stopped listening on port 41273
+1602708349240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9hXMZUxGy4wb"
+
+(firefox:25471): LIBDBUSMENU-GLIB-WARNING **: 20:45:52.307: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602708354640	Marionette	INFO	Listening on port 41275
+1602708354680	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602708440714	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7nlYyL8BylQt"
+
+(firefox:25696): LIBDBUSMENU-GLIB-WARNING **: 20:47:25.030: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602708448918	Marionette	INFO	Listening on port 39741
+1602708448993	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+1602708631814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.W7ZCyyhfJZR7"
+
+(firefox:26185): LIBDBUSMENU-GLIB-WARNING **: 20:50:36.624: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602708640782	Marionette	INFO	Listening on port 38631
+1602708640874	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:989:5\nhandler@resource://devtools/shared/protocol/Actor.js:166:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:989:5\nhandler@resource://devtools/shared/protocol/Actor.js:166:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new TypeError("nodeFront.walkerFront is null", "resource://devtools/client/inspector/markup/markup.js", 920))
+TypeError: nodeFront.walkerFront is null: _onNewSelection@resource://devtools/client/inspector/markup/markup.js:920:7
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+setNodeFront@resource://devtools/client/framework/selection.js:161:10
+onDetached@resource://devtools/client/inspector/inspector.js:1636:20
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new Error("Can not send request 'getAllSelectors' because front 'domnode' is already destroyed.", "resource://devtools/shared/protocol/Front/FrontClassWithSpec.js", 28))
+Error: Can not send request 'getAllSelectors' because front 'domnode' is already destroyed.: generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:28:15
+updateSelectionCssSelectors@resource://devtools/client/inspector/inspector.js:1450:32
+onNewSelection@resource://devtools/client/inspector/inspector.js:1521:10
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+setNodeFront@resource://devtools/client/framework/selection.js:161:10
+onDetached@resource://devtools/client/inspector/inspector.js:1636:20
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2274))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2274))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:989:5)", "resource://devtools/shared/protocol/Front.js", 327))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:989:5)", "resource://devtools/shared/protocol/Front.js", 327))
+1602708700726	Marionette	INFO	Stopped listening on port 41275
+1602708700803	Marionette	INFO	Stopped listening on port 39741
+JavaScript error: resource://gre/actors/BrowserElementParent.jsm, line 180: Error: permitUnload is already running for this tab.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1602708718606	Marionette	INFO	Stopped listening on port 38631
+1602708727927	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EIEE0CsWkl7c"
+
+(firefox:26638): LIBDBUSMENU-GLIB-WARNING **: 20:52:11.023: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602708733077	Marionette	INFO	Listening on port 40657
+1602708733165	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1602708808400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2gg7Y9bgWtNk"
+
+(firefox:26934): LIBDBUSMENU-GLIB-WARNING **: 20:53:31.543: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602708813973	Marionette	INFO	Listening on port 44449
+1602708814041	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602708852547	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lv1VWWiepVx4"
+
+(firefox:27318): LIBDBUSMENU-GLIB-WARNING **: 20:54:15.619: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602708857710	Marionette	INFO	Listening on port 45323
+1602708857795	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602708868732	Marionette	INFO	Stopped listening on port 45323
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1602708941414	Marionette	INFO	Stopped listening on port 44449
+1602709571304	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PAtigfJqs9UR"
+1602711282216	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0Ckdbs5e1bBd"
+
+(firefox:27659): LIBDBUSMENU-GLIB-WARNING **: 21:34:46.284: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602711289629	Marionette	INFO	Listening on port 33927
+1602711289668	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1602711320071	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SUOrQ6smTjbw"
+
+(firefox:27856): LIBDBUSMENU-GLIB-WARNING **: 21:35:23.165: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602711325257	Marionette	INFO	Listening on port 39481
+1602711325325	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.messenger.com"
+
+(firefox:27856): GLib-GObject-CRITICAL **: 21:35:32.377: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:27856): GLib-GObject-CRITICAL **: 21:35:32.377: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:27856): GLib-GObject-CRITICAL **: 21:35:32.377: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:27856): GLib-GObject-CRITICAL **: 21:35:32.377: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:27856): GLib-GObject-CRITICAL **: 21:35:32.478: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:27856): GLib-GObject-CRITICAL **: 21:35:32.479: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:27856): GLib-GObject-CRITICAL **: 21:35:32.623: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:27856): GLib-GObject-CRITICAL **: 21:35:33.492: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1602711427024	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PfmTcKZiSCvV"
+
+(firefox:28069): LIBDBUSMENU-GLIB-WARNING **: 21:37:10.134: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602711432462	Marionette	INFO	Listening on port 37575
+1602711432561	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1602711459545	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vzoUlwXNxLlw"
+
+(firefox:28495): LIBDBUSMENU-GLIB-WARNING **: 21:37:42.603: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602711464519	Marionette	INFO	Listening on port 36349
+1602711464589	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602711922789	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mYSNE7C8zqOq"
+
+(firefox:28924): LIBDBUSMENU-GLIB-WARNING **: 21:45:26.186: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602711928859	Marionette	INFO	Listening on port 37679
+1602711928926	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.messenger.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.messenger.com"
+
+(firefox:28924): GLib-GObject-CRITICAL **: 21:46:00.665: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:28924): GLib-GObject-CRITICAL **: 21:46:00.665: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:28924): GLib-GObject-CRITICAL **: 21:46:00.665: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:28924): GLib-GObject-CRITICAL **: 21:46:00.665: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:28924): GLib-GObject-CRITICAL **: 21:46:00.758: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:28924): GLib-GObject-CRITICAL **: 21:46:00.758: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:28924): GLib-GObject-CRITICAL **: 21:46:01.421: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:28924): GLib-GObject-CRITICAL **: 21:46:02.319: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1602712243727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.J5llD1zeLtiL"
+
+(firefox:29306): LIBDBUSMENU-GLIB-WARNING **: 21:50:47.575: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602712250692	Marionette	INFO	Listening on port 36683
+1602712250817	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602712283945	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qd9xt2sWRTLm"
+
+(firefox:29590): LIBDBUSMENU-GLIB-WARNING **: 21:51:28.788: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602712294004	Marionette	INFO	Listening on port 42241
+1602712294225	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJoq4/yQ/l/fr_FR/Do6Egk7AQGh.js?_nc_x=VJ7sQb44WU9, line 94: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iHGM4/yP/l/fr_FR/4Vnpp1Fv664.js?_nc_x=VJ7sQb44WU9, line 495: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iHGM4/yP/l/fr_FR/4Vnpp1Fv664.js?_nc_x=VJ7sQb44WU9, line 495: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iHGM4/yP/l/fr_FR/4Vnpp1Fv664.js?_nc_x=VJ7sQb44WU9, line 495: unreachable code after return statement
+1602712305180	Marionette	INFO	Stopped listening on port 42241
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39013F,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB50006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+(firefox:28924): GLib-GObject-CRITICAL **: 21:51:51.979: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1602712354415	Marionette	INFO	Stopped listening on port 37679
+1602712355951	Marionette	INFO	Stopped listening on port 36349
+1602713821515	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vs54f7zC79Ea"
+
+(firefox:29933): LIBDBUSMENU-GLIB-WARNING **: 22:17:05.715: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602713829226	Marionette	INFO	Listening on port 41973
+1602713829278	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iHGM4/yP/l/fr_FR/4Vnpp1Fv664.js?_nc_x=VJ7sQb44WU9, line 495: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iHGM4/yP/l/fr_FR/4Vnpp1Fv664.js?_nc_x=VJ7sQb44WU9, line 495: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iHGM4/yP/l/fr_FR/4Vnpp1Fv664.js?_nc_x=VJ7sQb44WU9, line 495: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJoq4/yQ/l/fr_FR/Do6Egk7AQGh.js?_nc_x=VJ7sQb44WU9, line 94: unreachable code after return statement
+[Child 29985, MediaDecoderStateMachine #1] WARNING: 7f319c7b2e20 OpenCubeb() failed to init cubeb: file /build/firefox-PEYGfR/firefox-81.0+build2/dom/media/AudioStream.cpp, line 330
+[Child 29985, MediaDecoderStateMachine #1] WARNING: Decoder=7f31ad0f6c00 [OnMediaSinkAudioError]: file /build/firefox-PEYGfR/firefox-81.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3891
+[Child 29985, MediaDecoderStateMachine #1] WARNING: Decoder=7f31ad0f6c00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-PEYGfR/firefox-81.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3470
